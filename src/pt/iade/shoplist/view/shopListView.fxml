@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="600.0">
+         <top>
+            <TextField fx:id="shoplistLV" alignment="CENTER" maxWidth="200.0" prefHeight="50.0" text="Shop List App" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Bright Regular" size="23.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow choke="0.3" color="#b5151545" height="44.72" radius="35.2025" width="98.09" />
+               </effect>
+            </TextField>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
